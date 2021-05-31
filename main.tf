@@ -5,6 +5,7 @@ module "ec2-instance" {
   vpc_cidr      = var.vpc_cidr[0]
 }
 
+### For Multi Region ###
 /*
 module "ec2-instance-1" {
   source        = "./modules/ec2"
